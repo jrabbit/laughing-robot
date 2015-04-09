@@ -1,7 +1,7 @@
-from urllib import parse
 import posixpath
 import logging
 
+from six.moves.urllib import parse
 import github3
 import semantic_version
 
